@@ -1,0 +1,42 @@
+# Ignore PowerShell script-related files
+
+# Ignore script output files
+*.log
+*.ps1.log
+*.txt
+
+# Ignore PowerShell module files
+*.psm1
+*.psd1
+*.ps1xml
+*.pssc
+*.cdxml
+
+# Ignore PowerShell script cache
+*.psc1
+*.ps1xml.cache
+*.clixml
+
+# Ignore PowerShell transcript files
+*.transcript
+
+# Ignore user-specific PowerShell configuration files
+$PROFILE.CurrentUserAllHosts
+$PROFILE.CurrentUserCurrentHost
+
+# Ignore Visual Studio Code specific files
+.vscode
+
+# Ignore NuGet package directory
+.ps_modules
+
+# Ignore build output files
+bin
+obj
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore package management files
+project.lock.json
