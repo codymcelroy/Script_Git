@@ -6,7 +6,7 @@ param(
 $search_directory = $PWD.Path
 
 # Set the path to the directory to exclude
-$excluded_directory = Join-Path -Path $search_directory -ChildPath ".Other"
+$excluded_directory = Join-Path -Path $search_directory -ChildPath "DirectoryName"
 
 # Change to the search directory
 Set-Location $search_directory
